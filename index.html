@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open api chatgpt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="container">
+            <div class="box" style="overflow-y: auto;">
+                <div class="heading">
+                    <h1>streaming with open api chatgpt
+                        <br>
+                        with javascript
+                    </h1>
+                </div>
+                <div>
+                    <p>generate text</p>
+                    <p id="result"></p>
+                </div>
+            </div>
+            <div class="prompt">
+                <input id="prompt" type="text" placeholder="Enter promt">
+            </div>
+            <div class="buttons">
+                <button id="generate" class="generate">generate</button>
+                <button id="stop" class="stop">stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
